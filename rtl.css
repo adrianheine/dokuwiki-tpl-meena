@@ -86,15 +86,15 @@ div.dokuwiki div.level4 { margin-left: 0px; margin-right: 63px; }
 div.dokuwiki div.level5 { margin-left: 0px; margin-right: 83px; }
 
 /* TOC control */
-div.dokuwiki div.toc {
+#dw__toc {
   float: left;
 }
 
-div.dokuwiki div.tocheader {
+#dw__toc h3 {
   text-align: right;
 }
 
-div.dokuwiki #toc__inside {
+#dw__toc > div {
   text-align: right;
 }
 

@@ -577,7 +577,7 @@ div.dokuwiki table.inline td {
 
 /* ---------- table of contents ------------------- */
 
-div.dokuwiki div.toc {
+#dw__toc {
   margin: 1.2em 0 0 2em;
   float: right;
   width: 200px;
@@ -585,7 +585,7 @@ div.dokuwiki div.toc {
   clear: both;
 }
 
-div.dokuwiki div.tocheader {
+#dw__toc h3 {
   border: 1px solid __border__;
   background-color: __background_alt__;
   text-align: left;
@@ -617,7 +617,7 @@ div.dokuwiki span.toc_close {
     border-bottom: 0.4em solid __text__;
 }
 
-div.dokuwiki #toc__inside {
+#dw__toc > div {
   border: 1px solid __border__;
   background-color: __button_back__;
   text-align: left;
@@ -643,13 +643,13 @@ div.dokuwiki ul.toc li.clear {
   padding-left: 0.4em;
 }
 
-div.dokuwiki a.toc:link,
-div.dokuwiki a.toc:visited {
+#dw__toc a:link,
+#dw__toc a:visited {
   color: __extern__;
 }
 
-div.dokuwiki a.toc:hover,
-div.dokuwiki a.toc:active {
+#dw__toc a:hover,
+#dw__toc a:active {
   color: __text__;
 }
 
