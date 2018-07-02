@@ -180,6 +180,7 @@ div.dokuwiki textarea.edit[readonly],
 div.dokuwiki input.edit[disabled],
 div.dokuwiki input.edit[readonly],
 div.dokuwiki input.button[disabled],
+div.dokuwiki button[disabled],
 div.dokuwiki select.edit[disabled] {
   background-color: __background_neu__!important;
   color: __text_neu__!important;
@@ -228,7 +229,7 @@ div.dokuwiki form#dw__editform div.license {
 /* --------- buttons ------------------- */
 
 div.dokuwiki input.button,
-div.dokuwiki button.button {
+div.dokuwiki button {
   border: 1px solid __border__;
   color: __text__;
   background-color: __button_back__;
@@ -241,11 +242,12 @@ div.dokuwiki button.button {
 }
 
 * html div.dokuwiki input.button,
-* html div.dokuwiki button.button {
+* html div.dokuwiki button {
   height: 1.8em;
 }
 
-div.dokuwiki div.secedit input.button {
+div.dokuwiki div.secedit input.button,
+div.dokuwiki div.secedit button {
   border: 1px solid __border__;
   color: __text__;
   background-color: __button_back__;
