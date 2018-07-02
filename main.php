@@ -27,9 +27,7 @@ if (!defined('DOKU_INC')) die();
   </title>
 
   <?php tpl_metaheaders()?>
-<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
-
-
+  <link href='/lib/tpl/meena/sorts_mill_goudy.css' rel='stylesheet' type='text/css'>
   <?php /*old includehook*/ @include(dirname(__FILE__).'/meta.html')?>
 </head>
 
