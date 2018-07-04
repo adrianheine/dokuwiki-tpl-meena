@@ -888,3 +888,12 @@ div.dokuwiki div.imagemeta img.thumb {
   text-decoration: none;
   color: __button_back__;
 }
+
+/* Termine */
+.data {
+  text-align: right;
+  color: #436976;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin: 0 1em 1.5em;
+}
