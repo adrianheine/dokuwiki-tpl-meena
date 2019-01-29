@@ -88,6 +88,8 @@ require_once DOKU_INC . 'inc/search.php';
 
     echo '</div>';
 */
+global $lang;
+$lang['btn_login'] = 'Seite ändern';
 echo p_wiki_xhtml('seitenleiste', '', false);
 if (isset($_SERVER['REMOTE_USER'])) {
     echo '<div class="secedit">';
