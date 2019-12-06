@@ -129,7 +129,6 @@ $lang['btn_pageedit'] = 'Bearbeiten';
       </div>
       <div class="bar-right" id="bar__bottomright">
         <?php tpl_button('subscribe')?>
-        <?php tpl_button('subscribens')?>
         <?php tpl_button('admin')?>
         <?php tpl_button('profile')?>
         <?php tpl_button('index')?>
