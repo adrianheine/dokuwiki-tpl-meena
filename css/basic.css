@@ -1,0 +1,88 @@
+/**
+ * This file provides the most basic styles.
+ */
+
+html,
+body {
+    background-color: __background__;
+    color: __text__;
+}
+
+@font-face {
+  font-family: 'Shree Devanagari 714';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Shree Devanagari 714'), local('ShreeDev0714'), url(Shree-Devanagari-714.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Cantarell';
+  font-style: medium;
+  src: url(Cantarell-Regular.ttf);
+}
+
+h1, h2 {
+  font-family: Cantarell;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font: __font1__ 'Shree Devanagari 714', "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+}
+
+#dokuwiki__header h1 { font-size: __font6__; }
+#dokuwiki__body h1 { font-size: __font5__; }
+h2 { font-size: __font4__; }
+h3 { font-size: __font3__; }
+h4 { font-size: __font2__; }
+
+img,
+svg {
+    border-width: 0;
+}
+
+img,
+svg,
+video {
+    height: auto;
+}
+
+img,
+svg,
+object,
+iframe,
+video,
+audio,
+select {
+    max-width: 100%;
+}
+
+pre {
+    overflow: auto;
+    word-wrap: normal;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+    text-align: left;
+}
+
+h2, a {
+    color: __link__;
+}
+
+hr {
+    height: 0.25rem;
+    background: __border__;
+    border: 0;
+}
+
+h1, #dokuwiki__site > .wrapper {
+    border-bottom: solid 0.25rem  __border__;
+    margin-top: 0;
+}
+
+#dokuwiki__header h1 a {
+    text-decoration: none;
+}

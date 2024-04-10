@@ -1,0 +1,31 @@
+/**
+ * This file provides styles for the general layout structure.
+ *
+ * @author Anika Henke <anika@selfthinker.org>
+ */
+
+#dokuwiki__site {
+    margin: 0 auto;
+    max-width: __site_width__;
+    padding: ~"min(2vmin, 1em)";
+}
+
+#dokuwiki__site .wrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+}
+
+#dokuwiki__aside {
+    flex: 1;
+}
+
+.hasSidebar #dokuwiki__content {
+    flex: 3 1 32em;
+}
+
+.dokuwiki .aside,
+.dokuwiki .page {
+    overflow: hidden;
+    word-wrap: break-word;
+}
